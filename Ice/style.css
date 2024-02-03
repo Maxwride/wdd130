@@ -1,0 +1,42 @@
+body {
+    background-color: #5ca0d7;
+    padding: 0;
+    margin: 0;
+}
+#content {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #5ca0d7;
+}
+img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+}
+header:hover{
+    background-color: black;
+}
+p{
+    text-align: center;
+    color: white;
+}
+
+.quote{
+    font-size: 2em;
+}
+
+.president{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+}
