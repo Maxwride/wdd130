@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 body {
     background-color: salmon;
     padding: 0;
@@ -19,12 +20,15 @@ nav{
     font-size: 20px;
     text-decoration: none;
     text-align: center;
+    font-family: "Protest Riot", "Prostest Guerrilla Static", "Roboto";
 }
 
 img{
     width: 60%;
     display: block;
     margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 50px;
 }
 nav a:hover {
     color: salmon;
@@ -33,13 +37,26 @@ nav a:hover {
 #main_title {
     text-align: center;
     font_size: 4em;
+    font-family: "Protest Riot", "Prostest Guerrilla Static", "Roboto";
 }
 p{
     text-align: center;
 }
+.paragraph{
+    width: 60%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 50px;
+    background-color: salmon; 
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
 footer{
     background-color: salmon;
     padding: 10px;
+    font-family: "Protest Riot", "Prostest Guerrilla Static", "Roboto";
 }
 
 
