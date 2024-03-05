@@ -248,3 +248,45 @@ body {
     footer .social {
         padding-top: 15px;
     }
+
+    /*rivers.css*/
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    column-gap: 100px;
+    padding: 100px;
+}
+.river-txt{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 5px 0px 100px 0px;
+}
+    img.river{
+        width: 50%;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+
+  img.rivers{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .rivers-txt{
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  img.canyon{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .canyon-txt{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    
+  }
