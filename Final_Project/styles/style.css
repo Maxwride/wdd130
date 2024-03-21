@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100..900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+nav{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+}
+nav a{
+    font-family: "Big Shoulders Stencil Text";
+    font-size: 30px;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+}
+
+.pagani-img {
+    width: 50%;
+    margin: 70px auto;
+    display: block;
+    border: 5px solid white;
+}
+
+body {
+    font-family: "Inria Serif";
+    color: white;
+    background-color: black;
+}
+
+#pagani p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid white;
+    padding: 50px;
+}
+
+footer {
+    margin: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+footer .social {
+    padding-top: 15px;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social a {
+    text-decoration: none;
+}
+
