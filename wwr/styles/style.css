@@ -5,7 +5,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
+a{
+    text-decoration: none;
+}
 .book,
 .join {
     color: white;
@@ -247,8 +249,12 @@ body {
 
     footer .social {
         padding-top: 15px;
-    }
 
+    }
+.content{
+    max-width: 1600px;
+    margin: auto 0;
+}
     /*rivers.css*/
 .rivers-grid{
     display: grid;
