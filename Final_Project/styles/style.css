@@ -5,6 +5,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+.site:hover{
+    color: #ccc;
+}
 
 header {
     display: grid;
@@ -23,7 +26,9 @@ nav a{
     border-radius: 50px;
     text-decoration: none;
 }
-
+nav a:hover{
+    color: #ccc;
+}
 .logo {
     width: 100%;
 }
